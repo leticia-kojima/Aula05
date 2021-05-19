@@ -60,6 +60,9 @@ public class TeacherHelper {
 			case 3:
 				
 				switch(gerador.nextInt(7)) {
+				case 0:
+					System.out.println("Você é o responsável pelos alunos perderem os cabelos com fatorial!");
+					break;
 				case 1:
 					System.out.println("Você é um professor incrível!");
 					break;
